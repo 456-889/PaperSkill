@@ -1,0 +1,24 @@
+/* Paper-specific overrides. This is the ONLY stylesheet the generator edits.
+   Keep the semantic color roles from tokens.css stable (see contract.md §5):
+   --blue = guidance/current, --green = success/paper method, --red = failure/old,
+   --orange = emphasis, --purple = auxiliary. Only append metaphor scene colors
+   or tune scene backgrounds here. Do NOT rewrite tokens.css / components.css. */
+
+:root {
+  --paper-scene-bg: #f7f4ec;
+  --paper-wood: #d9d2c3;
+  --paper-wood-dark: #8a7f6a;
+  --paper-plinth: #b9a98c;
+  --paper-vinyl: #2f3437;
+  --paper-groove: #5b6367;
+  --paper-label: #7c3aed;
+}
+
+/* Emphasis feedback for states that are neither success nor failure:
+   e.g. a partially recovered old bitstream or a knowingly narrowed trade-off. */
+.feedback.warn {
+  color: #92400e;
+  background: #fdf1e7;
+  border-left-color: #f07e47;
+  font-style: normal;
+}

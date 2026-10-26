@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "paperName": "towards_backward_compatible_continual_learning_of_image_compression",
+  "title": "Towards Backward-Compatible Continual Learning of Image Compression",
+  "authors": [],
+  "year": 2024,
+  "venue": "arXiv:2402.18862v1",
+  "paperUrl": "https://arxiv.org/abs/2402.18862",
+  "participants": [
+    {
+      "name": "赵翊博",
+      "github": "456-889"
+    }
+  ],
+  "topics": [
+    "后向兼容",
+    "知识回放",
+    "学习式图像压缩",
+    "变码率"
+  ],
+  "skillVersion": "1.4.0",
+  "status": "review",
+  "entry": "index.html",
+  "version": "zhaoyibo1026",
+  "versionDate": "2026-10-26"
+}
